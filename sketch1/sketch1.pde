@@ -38,7 +38,7 @@ void draw() {
       fill(255);
       if(mouseOverKey() == i) {
         fill(50);
-        myPort.write(str(freq));
+        myPort.write(i);
       }
       rect(x, y, w, h);
       break;
