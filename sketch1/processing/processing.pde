@@ -17,6 +17,7 @@ void setup() { //set up canvas, serial port, and font (data/Avenir-Roman-20.vlw)
   String portName = Serial.list()[2];
   myPort = new Serial(this, portName, 9600);
   myFont = loadFont("Avenir-Roman-20.vlw");
+  surface.setTitle("piano");
 }
 
 void draw() {
