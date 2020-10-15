@@ -13,7 +13,7 @@ String mode = "hover"; //does the user want to hover on keys to play or click on
 Boolean playing = false; //nothing is playing when the sketch starts. will be used to tell arduino to run noTone()
 
 void setup() { //set up canvas, serial port, and font (data/Avenir-Roman-20.vlw)
-  size(800, 340);
+  size(796, 340);
   String portName = Serial.list()[2];
   myPort = new Serial(this, portName, 9600);
   myFont = loadFont("Avenir-Roman-20.vlw");
@@ -39,7 +39,7 @@ void draw() {
   //it's width is half that of a white key
   //it should be centered on the edge where the first and second white keys meet
   //so it's x is 3/4 * width (of white key) after the first white key
-  x = int(20 + w * 3/4);  
+  x = 20 + w * 3/4;  
   for (int i = 0; i < 10; i++) { //10 black keys to make
     fill(0);
     if ((mouseOverKey() == i + 100) && (((mode == "click") && (mousePressed)) || (mode == "hover"))) {
@@ -61,7 +61,7 @@ void draw() {
     text("click", 210, 320);
     fill(#80ADA0); //selected mode is colored - others are black
     text("hover", 150, 320);
-  } else if (mode == "click") {
+  } else {
     text("hover", 150, 320);
     fill(#80ADA0); //selected mode is colored - others are black
     text("click", 210, 320);
@@ -92,7 +92,7 @@ int mouseOverKey() {
   //black keys are checked first and return 100 + i
   //white keys are checked second and return i
   //returns -1 if outside the keyboard and -2 if it makes it all the way through the else ifs
-  if ((mouseX < 20) || (mouseX > 780) || (mouseY < 20) || (mouseY > 280)) {
+  if ((mouseX < 20) || (mouseX > 776) || (mouseY < 20) || (mouseY > 280)) {
     //outside bounds of piano - return -1 to skip highlighting and playing tones
     return -1;
   } else if ((mouseX >= w * 3/4 + 20) && (mouseX < 20 + w * 5/4) && (mouseY < 20 + h / 2)) { 

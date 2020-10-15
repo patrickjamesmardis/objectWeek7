@@ -9,6 +9,8 @@ void loop() {
   Serial.print(analogRead(A1));
   Serial.print(' ');
   Serial.println(analogRead(A2));
-  
-  delay(50);
+
+  if (analogRead(A2) == 0) {
+    delay(300);
+  }
 }
