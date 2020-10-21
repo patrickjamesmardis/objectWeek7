@@ -1,4 +1,4 @@
-# Week 7 | Combining Arduino and Processing
+# Weeks 7 + 8 | Combining Arduino and Processing
 [process.patrickjam.es/](https://process.patrickjam.es/2020/10/15/week-7-combining-arduino-and-processing/)
 
 ## Sketch 1: Piano
