@@ -278,6 +278,6 @@ void loop() {
 }
 ```
 
-![sketch 1 breadboard](documentationAssets/sketch1_bb.png)
-[![sketch 1 gif link to video](documentationAssets/sketch1.gif)](https://vimeo.com/468627192)
-![sketch 1 schematic](documentationAssets/sketch1_schem.png)
+![sketch 1 breadboard](../documentationAssets/sketch1_bb.png)
+[![sketch 1 gif link to video](../documentationAssets/sketch1.gif)](https://vimeo.com/468627192)
+![sketch 1 schematic](../documentationAssets/sketch1_schem.png)
