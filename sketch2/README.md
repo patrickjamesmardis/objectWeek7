@@ -99,6 +99,6 @@ void loop() {
 }
 ```
 
-![sketch 2 breadboard](documentationAssets/sketch2_bb.png)
-![sketch 2 gif](documentationAssets/sketch2.gif)
-![sketch 2 schematic](documentationAssets/sketch2_schem.png)
+![sketch 2 breadboard](../documentationAssets/sketch2_bb.png)
+![sketch 2 gif](../documentationAssets/sketch2.gif)
+![sketch 2 schematic](../documentationAssets/sketch2_schem.png)
