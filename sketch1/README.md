@@ -1,5 +1,5 @@
 # Sketch 1: Piano
-[process.patrickjam.es/](https://process.patrickjam.es/)
+[process.patrickjam.es/](https://process.patrickjam.es/2020/10/15/week-7-combining-arduino-and-processing/)
 
 Processing:
 ```processing
